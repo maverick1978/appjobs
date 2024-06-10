@@ -1,0 +1,63 @@
+/* Estilo personalizado */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #343a40;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="email"],
+.modal-body input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.modal-body input[type="text"]:focus,
+.modal-body input[type="email"]:focus,
+.modal-body input[type="password"]:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #ff0040;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #5b759b;
+    border-color: #0056b3;
+}
+
+
+/* Fin del estilo personalizado */
